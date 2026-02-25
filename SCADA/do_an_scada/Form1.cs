@@ -19,7 +19,7 @@ namespace do_an_scada
     {
         Plc plc_s7;
         CpuType Cpu_Tpye = CpuType.S71200;
-        string IP = "192.168.5.2";
+        string IP = "192.168.5.3";
         short Rack = 0;
         short Slot = 1;
         CancellationTokenSource cancellationToken;
