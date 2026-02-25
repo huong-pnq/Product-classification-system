@@ -1,0 +1,18 @@
+þÿÿÿÏ###id###VisulizationRootBrowsableId###TargetIdNameDisplayName-###SearchableNonTechnicalFieldNamesOfDocument###ParentIds###ImmediateParentId###ReferenceFieldIds###ReconstitutionDataIDAssociatedCultureFieldIdAssociatedProjectVersion!AssociatedIndexDataVersionFieldId,AssociatedTechnicalFieldNamesHashCodeFieldId-AssociatedTechnicalFieldContentVersionFieldIdIndexAtomStoreCommentDatatypeValue###SearchFilterIdsTitleLanguageVersionConstant nameEvent class###UpdatableParentIdInterfaceMember_NameInterfaceMember_DatatypeInterfaceMember_ValueInterfaceMember_CommentNetwork titleLADFBD CodeAuthorFamilyUser-defined IDInstance DBText.0Text.1Text.2
+AlarmClassAddressAcknowledgementModelIdEmailAddressAcknowledgedText
+ComingText	GoingTextAcknowledgementGroupTextInvalidAttempts	ValidDaysWarningDaysGenerationsMinNumPsswd
+ServerName
+PortNumberWindowsDomain	CycleUnit	CycleTimeNumber	ShortName
+LogoutTimeDataType	BackColor	GridColor
+LineColor1
+LineColor2OperatableAreaColor
+VisibilityCommonAlarmClassStationNamePartnerNameNodeNameBackFillStyleBorderBackColorBorderColor	EdgeStyleFlashingFont	ForeColorHorizontalAlignmentLayerTextTextOrientationVerticalAlignmentFirstGradientColor
+FocusColorHorizontalPictureAlignmentMiddleGradientColorModePictureAutoSizingSecondGradientColorTextOffTextOnVerticalPictureAlignment	FunctionsUITypeEditorBitPositionUITypeEditorTagExpressionRangeFromToAboveUpperLimitColorBelowLowerLimitColor
+DataFormatFormatPatternUnitPropertyNameTagValueForPropertyTagPage
+BlinkColorFillColorModeFlipRotationUITypeEditorStartvalueUITypeEditorEndvalueUITypeEditorXPosStartUITypeEditorXPosEndUITypeEditorYPosStartUITypeEditorYPosEndTagAddressPanelInfoAddressAccessModeAcquisitionTriggerModeAcquisitionCycleConfirmationTypeCoding
+ConnectionPlcNameControllerTagLimitHighConstantLimitHighLowConstantLimitLowHighConstantLimitLowConstant	JobNumber
+StartValueProcessValuePreCodeHeaderCodeFooterJobEventAlarmAlertAcknowledgementComingGoingText	AlignmentStartingPointDayStartingPointHourStartingPointMinuteStartingPointMonthStartingPointSecondWebLanguageStartScreenWebUxStartScreenHmiDataTypeSubstituteValueBackFlashingColorOffBackFlashingColorOnBackFlashingRateBorderFlashingColorOffBorderFlashingColorOnBorderFlashingRateCornerStyleFillingDirectionFillPatternColorFlashingColorOffFlashingColorOnFlashingRateFontNameLineEndShapeStyleBorderBrightColor3DBorderShadeColor3DPictureAlignmentStyleSettingsToolTipText	BlinkMode
+BlinkSpeed
+InputValueAdaptPictureTransparentColor	DialColorNeedleBorderColorNeedleColorNeedleFillStyleNumberStyle
+TicksColor	TickStyleCaptionColorCaptionFontCaptionTextCenterColorDangerLowerRangeColorDangerRangeColorDialFillStyleInnerDialColorNormalRangeColorPointerColorScaleLabelColorScaleLabelFontScaleTickColor	UnitColorUnitFontUnitTextWarningLowerRangeColorWarningRangeColor
+AutoSizingScrollBarOrientationHelpTextInnerBackColorOffInnerBackColorOnSwitchOrientationEvenRowBackColorSelectBackColorSelectForeColor

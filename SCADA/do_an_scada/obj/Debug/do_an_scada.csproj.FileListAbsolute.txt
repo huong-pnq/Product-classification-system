@@ -1,0 +1,40 @@
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\do_an_scada.exe.config
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\do_an_scada.exe
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\do_an_scada.pdb
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\S7.Net.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\S7.Net.xml
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.csproj.AssemblyReference.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.Properties.Resources.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.csproj.GenerateResource.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.csproj.CoreCompileInputs.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.csproj.CopyComplete
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.exe
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.pdb
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\NetToolKit.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\SKCLNET.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\SymbolFactoryDotNet.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\bin\Debug\SymbolFactoryNetEngine.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.Form1.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\SCADA\do_an_scada\do_an_scada\obj\Debug\do_an_scada.frLogin.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.csproj.AssemblyReference.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.Form1.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.frLogin.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.Properties.Resources.resources
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.csproj.GenerateResource.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.csproj.CoreCompileInputs.cache
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.exe
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.pdb
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\do_an_scada.exe.config
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\do_an_scada.exe
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\do_an_scada.pdb
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\NetToolKit.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\S7.Net.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\SKCLNET.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\SymbolFactoryDotNet.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\SymbolFactoryNetEngine.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\S7.Net.xml
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\obj\Debug\do_an_scada.csproj.CopyComplete
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\AForge.dll
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\AForge.Video.xml
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\AForge.Video.DirectShow.xml
+D:\Softwares\OneDrive - ut.edu.vn\21H1050042-OneDrive\Luận văn tốt nghiệp\LVTN_visual_studio\do_an_scada\bin\Debug\AForge.xml

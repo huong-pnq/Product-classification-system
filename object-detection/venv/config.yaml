@@ -1,0 +1,12 @@
+path: /content/data-train-yolo/data  # dataset root directory
+
+train: /content/data-train-yolo/data/images/train  # full path to the train images
+val: /content/data-train-yolo/data/images/train  # full path to the validation images
+
+# Classes
+nc: 4  # number of classes
+names: 
+ 0: nap-boncha  # list of class names
+ 1: nap-olong
+ 2: nap-pcrs
+ 3: nc
