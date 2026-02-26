@@ -44,3 +44,20 @@ The system consists of four main modules working in tandem:
 3. Install the required libraries:
    ```bash
    pip install ultralytics opencv-python
+4. Run YOLOnapchai.py to test the camera feed and inference.
+
+### 2. SCADA Application (C#)
+1. Open SCADA/do_an_scada.sln using Visual Studio 2019 or later.
+2. Restore NuGet packages (ensure S7.Net and AForge are loaded).
+3. Update the PLC IP address in the configuration or code if necessary.
+4. Build and run the application.
+
+### 3. Arduino Setup
+1. Open the arduinoMB_servo folder using VS Code with the PlatformIO extension.
+2. Update the network credentials (IP, Gateway, Subnet) in src/main.cpp to match your local network.
+3. Build and upload the code to your Arduino board.
+
+### 4. PLC Setup
+1. Open PLC/PLC.ap18 using Siemens TIA Portal V18.
+2. Compile the hardware and software configurations.
+3. Download the program to your physical PLC or run it using PLCSIM Advanced.
