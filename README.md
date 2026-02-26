@@ -1,56 +1,46 @@
 # Product Classification System
 
-This repository contains the source code and project files for an automated **Product Classification System**. The system integrates computer vision (YOLOv8) for product inspection, a Siemens PLC for core automation logic, an Arduino-based Modbus TCP servo controller for physical sorting, and a custom C# SCADA application for monitoring and control.
+A comprehensive automated system designed for classifying products (specifically identifying and sorting bottle caps) using a combination of Computer Vision, Programmable Logic Controllers (PLC), Arduino-based sorting mechanisms, and a centralized SCADA system.
+
+## 📑 Table of Contents
+- [Project Overview](#project-overview)
+- [System Architecture](#system-architecture)
+- [Directory Structure](#directory-structure)
+- [Technologies Used](#technologies-used)
+- [Setup & Installation](#setup--installation)
+
+## 🔍 Project Overview
+This project implements a full-stack industrial automation solution to classify products on a conveyor system. It uses an AI-powered vision system to detect and classify objects (bottle caps), communicates the results to a PLC and Arduino for physical sorting using servo motors, and provides real-time monitoring through a custom-built SCADA interface.
 
 ## 🏗️ System Architecture
+The system consists of four main modules working in tandem:
+1.  **Computer Vision (AI):** Uses a custom-trained YOLOv8 model to detect and classify products via a camera feed.
+2.  **SCADA System:** A C# Windows Forms application that monitors the camera feed, interfaces with the AI model, logs data, and communicates with the PLC.
+3.  **Industrial Control (PLC):** Handles the main logic of the industrial process, receiving commands from the SCADA system.
+4.  **Actuation (Arduino):** Listens to Modbus TCP commands to control a servo motor that physically sorts the classified products into appropriate bins.
 
-The project is divided into four main components:
+## 📂 Directory Structure
 
-### 1. Object Detection (`/object-detection` & `/data-train-yolo`)
-* **Role**: Uses a camera to capture images of products (e.g., bottle caps) and classifies them in real-time.
-* **Technologies**: Python, OpenCV, Ultralytics YOLOv8.
-* **Contents**:
-    * `data-train-yolo/`: Custom dataset containing training images (`anhnap.jpg`) and YOLO format labels.
-    * `object-detection/`: Python scripts (`Train.py` for model training and `YOLOnapchai.py` for real-time inference).
-    * Contains the pre-trained weights (`best.pt`, `last.pt` inside `runs/detect/train4/weights/`).
+* **`PLC/`**: Contains the Siemens TIA Portal V18 project files (`.ap18`) and HMI configurations for the industrial control logic.
+* **`SCADA/`**: The C# .NET solution (`do_an_scada.sln`) containing the Graphical User Interface for system monitoring. It utilizes `S7.Net` for PLC communication and `AForge.Video` for capturing the camera stream.
+* **`object-detection/`**: Python environment containing the YOLOv8 model configuration.
+    * `Train.py`: Script used to train the YOLO model.
+    * `YOLOnapchai.py`: Inference script for real-time bottle cap detection.
+    * `yolov8n.pt` & `runs/`: Pre-trained weights and training performance graphs.
+* **`data-train-yolo/`**: The dataset used to train the YOLO model, containing annotated images (`.jpg` and `.txt` label files) of bottle caps.
+* **`arduinoMB_servo/`**: A PlatformIO project containing the C++ code (`src/main.cpp`) for the Arduino. It implements a Modbus TCP server to receive sorting signals and controls a servo motor accordingly.
 
-### 2. SCADA Application (`/SCADA`)
-* **Role**: A Human-Machine Interface (HMI) for operators to monitor the system, view the live camera feed, track statistics, and control the process.
-* **Technologies**: C# .NET Windows Forms.
-* **Key Libraries**:
-    * `S7.Net`: To communicate directly with the Siemens PLC.
-    * `AForge.Video`: To handle direct video streaming from connected webcams.
-* **Contents**: Visual Studio solution (`do_an_scada.sln`) with forms for User Login and Main Dashboard (`Form1.cs`).
+## 🛠️ Technologies Used
+* **Machine Learning / AI:** Python, Ultralytics YOLOv8, OpenCV
+* **SCADA / Desktop App:** C# .NET Framework, Windows Forms, S7.Net, AForge.NET
+* **Hardware / Embedded:** Arduino, PlatformIO, Modbus TCP, Servo Motors
+* **Industrial Automation:** Siemens TIA Portal V18 (Step 7 / WinCC)
 
-### 3. PLC Control (`/PLC`)
-* **Role**: The central "brain" of the physical automation process. It handles sensor inputs, interacts with the SCADA system, and dictates sorting actions.
-* **Technologies**: Siemens TIA Portal V18.
-* **Contents**: The TIA Portal project file (`PLC.ap18`) and associated system configurations.
+## 🚀 Setup & Installation
 
-### 4. Servo Controller (`/arduinoMB_servo`)
-* **Role**: Actuates a servo motor to physically sort/reject products on the conveyor belt based on commands received over the network.
-* **Technologies**: C++, Arduino, PlatformIO.
-* **Key Libraries**: `ModbusTCP` to communicate with the PLC or SCADA system as a Modbus slave/server.
-* **Contents**: PlatformIO project (`platformio.ini`) and source code (`main.cpp`).
-
----
-
-## 🚀 Prerequisites
-
-To work with or run the full system, you will need the following software installed:
-
-* **Python 3.8+**: For running the YOLOv8 object detection scripts.
-    * Packages: `ultralytics`, `opencv-python`, `socket`
-* **Visual Studio 2019/2022**: For compiling and running the C# SCADA application.
-* **Siemens TIA Portal V18**: For opening and compiling the PLC project.
-* **VS Code with PlatformIO Extension**: (or Arduino IDE) for compiling and flashing the Arduino code.
-
----
-
-## ⚙️ Setup and Execution
-
-### 1. Object Detection (Vision System)
-1. Navigate to the `object-detection/venv/` directory.
-2. Install the required Python packages:
+### 1. Object Detection (Python)
+1. Navigate to the `object-detection` directory.
+2. Ensure you have Python 3.8+ installed.
+3. Install the required libraries:
    ```bash
    pip install ultralytics opencv-python
